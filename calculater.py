@@ -18,9 +18,9 @@ def calculate(num1,num2,operator):
     elif operator =="%":
         return num1 % num2
     else:
-        return "invalid operator"
+        return "invalid operator" 
 
-st.title("calculator")
+st.title("Calculator")
 num1= st.number_input("enter the first number")
 num2= st.number_input("enter the second number")
 operator= st.selectbox("select the operator",["+","-","/","*","%","**","//"])
